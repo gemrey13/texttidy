@@ -7,6 +7,7 @@ def simplify_text(text):
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",
+        provider="Blackbox",
         messages=[
             {
                 "role": "user",
